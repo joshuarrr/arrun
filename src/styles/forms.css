@@ -1,0 +1,35 @@
+/* Forms */
+button:focus {
+  outline: 0;
+}
+
+button.navigation {
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: .03rem;
+  color: var(--button-text-color);
+  margin: 1rem;
+  background: transparent;
+  border: 1px solid var(--body-text-color);
+  border-radius: .5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+button:hover {
+  color: var(--blue);;
+  border-color: var(--blue);
+}
+
+
+
+button.ui {
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: .03rem;
+  color: var(--button-text-color);
+  margin: 1rem;
+  background: transparent;
+  border: 1px solid var(--body-text-color);
+  border-radius: .5rem;
+  line-height: 1;
+  padding: .5rem 1rem .75rem;
+}

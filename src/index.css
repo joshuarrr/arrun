@@ -1,14 +1,31 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* đŠâđť App *********************************************************************/
+@import './styles/reset.css';
+@import './styles/utility.css';
+@import './styles/type.css';
+@import './styles/forms.css';
+@import './styles/layout.css';
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+/* Vars */
+:root {
+  /* colors */
+  --red: #ce3a67;
+  --orange: #f0b046;
+  --yellow: rgb(200, 200, 60);
+  --green: #46a789;
+  --blue: #33bce1;
+  --purple: #AA71C4;
+
+  --bg-color: rgb(25, 25, 25);
+  --main-bg-color: rgb(23, 23, 23);
+
+  /* fonts */
+  --body-text-color: rgb(180, 180, 180);
+  --button-text-color: rgb(180, 180, 180);
+  --border-color: rgb(35, 35, 35);
+
+  /* layout */
+  --border-radius: 1.5rem;
+  --padding: 5rem;
+  --trailer: 5vh;
 }
